@@ -1,7 +1,5 @@
 class Experiment {
-  // Group Details
-  // static rollNos = '102103092,102103180';
-  // static names = 'Pahuljot Singh, Sanmaandeep Singh Gill';
+  
 
   canvasSel = '#myCanvas';
 
