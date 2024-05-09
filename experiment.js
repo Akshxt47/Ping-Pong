@@ -15,8 +15,8 @@ class Experiment {
       x: canvas.width / 2,
       y: canvas.height / 2,
       radius: 15,
-      dx: 8,
-      dy: 8
+      dx: 6,
+      dy: 6
     };
 
     let score = 0;
@@ -104,9 +104,9 @@ class Experiment {
 
     document.addEventListener('keydown', function(event) {
       if (event.key === 'ArrowRight' && paddle.x + paddle.width < canvas.width) {
-        paddle.x += 50; // Adjust the paddle movement speed as needed
+        paddle.x += 57; // Adjust the paddle movement speed as needed
       } else if (event.key === 'ArrowLeft' && paddle.x > 0) {
-        paddle.x -= 50; // Adjust the paddle movement speed as needed
+        paddle.x -= 57; // Adjust the paddle movement speed as needed
       }
     });
 
